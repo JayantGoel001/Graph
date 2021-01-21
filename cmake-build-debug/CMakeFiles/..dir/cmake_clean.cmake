@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "..exe"
   "..exe.manifest"
   "..pdb"
-  "CMakeFiles/..dir/MST_using_DFS.cpp.obj"
+  "CMakeFiles/..dir/Detect_Cycle.cpp.obj"
   "lib..dll.a"
 )
 

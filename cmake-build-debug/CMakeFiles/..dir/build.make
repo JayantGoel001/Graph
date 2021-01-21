@@ -76,27 +76,27 @@ include CMakeFiles/..dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/..dir/flags.make
 
-CMakeFiles/..dir/MST_using_DFS.cpp.obj: CMakeFiles/..dir/flags.make
-CMakeFiles/..dir/MST_using_DFS.cpp.obj: ../MST\ using\ DFS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jgoel\CLionProjects\Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/..dir/MST_using_DFS.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\..dir\MST_using_DFS.cpp.obj -c "C:\Users\jgoel\CLionProjects\Graph\MST using DFS.cpp"
+CMakeFiles/..dir/Detect_Cycle.cpp.obj: CMakeFiles/..dir/flags.make
+CMakeFiles/..dir/Detect_Cycle.cpp.obj: ../Detect\ Cycle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jgoel\CLionProjects\Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/..dir/Detect_Cycle.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\..dir\Detect_Cycle.cpp.obj -c "C:\Users\jgoel\CLionProjects\Graph\Detect Cycle.cpp"
 
-CMakeFiles/..dir/MST_using_DFS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/..dir/MST_using_DFS.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jgoel\CLionProjects\Graph\MST using DFS.cpp" > CMakeFiles\..dir\MST_using_DFS.cpp.i
+CMakeFiles/..dir/Detect_Cycle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/..dir/Detect_Cycle.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jgoel\CLionProjects\Graph\Detect Cycle.cpp" > CMakeFiles\..dir\Detect_Cycle.cpp.i
 
-CMakeFiles/..dir/MST_using_DFS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/..dir/MST_using_DFS.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jgoel\CLionProjects\Graph\MST using DFS.cpp" -o CMakeFiles\..dir\MST_using_DFS.cpp.s
+CMakeFiles/..dir/Detect_Cycle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/..dir/Detect_Cycle.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jgoel\CLionProjects\Graph\Detect Cycle.cpp" -o CMakeFiles\..dir\Detect_Cycle.cpp.s
 
 # Object files for target .
 __OBJECTS = \
-"CMakeFiles/..dir/MST_using_DFS.cpp.obj"
+"CMakeFiles/..dir/Detect_Cycle.cpp.obj"
 
 # External object files for target .
 __EXTERNAL_OBJECTS =
 
-..exe: CMakeFiles/..dir/MST_using_DFS.cpp.obj
+..exe: CMakeFiles/..dir/Detect_Cycle.cpp.obj
 ..exe: CMakeFiles/..dir/build.make
 ..exe: CMakeFiles/..dir/linklibs.rsp
 ..exe: CMakeFiles/..dir/objects1.rsp

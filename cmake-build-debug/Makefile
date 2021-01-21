@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/build
 .PHONY : ./fast
 
-MST_using_DFS.obj: MST_using_DFS.cpp.obj
+Detect_Cycle.obj: Detect_Cycle.cpp.obj
 
-.PHONY : MST_using_DFS.obj
+.PHONY : Detect_Cycle.obj
 
 # target to build an object file
-MST_using_DFS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.obj
-.PHONY : MST_using_DFS.cpp.obj
+Detect_Cycle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.obj
+.PHONY : Detect_Cycle.cpp.obj
 
-MST_using_DFS.i: MST_using_DFS.cpp.i
+Detect_Cycle.i: Detect_Cycle.cpp.i
 
-.PHONY : MST_using_DFS.i
+.PHONY : Detect_Cycle.i
 
 # target to preprocess a source file
-MST_using_DFS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.i
-.PHONY : MST_using_DFS.cpp.i
+Detect_Cycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.i
+.PHONY : Detect_Cycle.cpp.i
 
-MST_using_DFS.s: MST_using_DFS.cpp.s
+Detect_Cycle.s: Detect_Cycle.cpp.s
 
-.PHONY : MST_using_DFS.s
+.PHONY : Detect_Cycle.s
 
 # target to generate assembly for a file
-MST_using_DFS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.s
-.PHONY : MST_using_DFS.cpp.s
+Detect_Cycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.s
+.PHONY : Detect_Cycle.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... .
-	@echo ... MST_using_DFS.obj
-	@echo ... MST_using_DFS.i
-	@echo ... MST_using_DFS.s
+	@echo ... Detect_Cycle.obj
+	@echo ... Detect_Cycle.i
+	@echo ... Detect_Cycle.s
 .PHONY : help
 
 

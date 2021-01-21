@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jgoel/CLionProjects/Graph/MST using DFS.cpp" "C:/Users/jgoel/CLionProjects/Graph/cmake-build-debug/CMakeFiles/..dir/MST_using_DFS.cpp.obj"
+  "C:/Users/jgoel/CLionProjects/Graph/Detect Cycle.cpp" "C:/Users/jgoel/CLionProjects/Graph/cmake-build-debug/CMakeFiles/..dir/Detect_Cycle.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

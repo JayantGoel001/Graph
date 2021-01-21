@@ -3,44 +3,48 @@
 #include <memory.h>
 
 using namespace std;
-
 class Graph{
 public:
     int V;
+    int count=0;
     list<int> *adj;
     Graph(){
         V = 0;
         adj = new list<int>[V];
     }
-    explicit Graph(int v){
-        V = v;
+    explicit Graph(int V){
+        this->V = V;
         adj = new list<int>[V];
     }
-    void addEdge(int u,int v) const{
+    void addEdge(int u,int v,int type) const{
+        if (type==0){
+            adj[v].push_back(u);
+        }
         adj[u].push_back(v);
     }
     void DFSUtil(int v,bool *isVisited){
-
         isVisited[v] = true;
-        cout<<v<<" ";
-
-        for (int & i : adj[v]) {
-            if (!isVisited[i]){
-                DFSUtil(i,isVisited);
+        for(int & it : adj[v]){
+            if (!isVisited[it]) {
+                DFSUtil(it, isVisited);
             }
         }
     }
     void DFS(){
         bool *isVisited = new bool[V];
         memset(isVisited,false,V);
+
         for (int i = 0; i < V; ++i) {
-            if (!isVisited[i]){
-                DFSUtil(i,isVisited);
+            if (!isVisited[i]) {
+                DFSUtil(i, isVisited);
+                this->count++;
             }
         }
     }
 };
+
 int main(){
+
     int V;
     cout<<"Enter Number of Nodes:\n";
     cin>>V;
@@ -50,12 +54,13 @@ int main(){
     Graph g(V);
     for (int i = 0; i < E; ++i) {
         int u,v;
-        cout<<"Enter Egde  Number : "<<i+1<<"\n";
+        cout<<"Enter Edge  Number : "<<i+1<<"\n";
         cin>>u>>v;
-        g.addEdge(u,v);
+        g.addEdge(u,v,0);
     }
     cout<<"Enter Starting Node : "<<"\n";
     int startNode = 0;
     cin>>startNode;
     g.DFS();
+    cout<<"Total Number of Disconnected Components : "<<g.count<<"\n";
 }

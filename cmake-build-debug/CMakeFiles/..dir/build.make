@@ -76,27 +76,27 @@ include CMakeFiles/..dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/..dir/flags.make
 
-CMakeFiles/..dir/Depth_First_Search.cpp.obj: CMakeFiles/..dir/flags.make
-CMakeFiles/..dir/Depth_First_Search.cpp.obj: ../Depth\ First\ Search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jgoel\CLionProjects\Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/..dir/Depth_First_Search.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\..dir\Depth_First_Search.cpp.obj -c "C:\Users\jgoel\CLionProjects\Graph\Depth First Search.cpp"
+CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj: CMakeFiles/..dir/flags.make
+CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj: ../Numbe\ of\ Connected\ Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jgoel\CLionProjects\Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\..dir\Numbe_of_Connected_Component.cpp.obj -c "C:\Users\jgoel\CLionProjects\Graph\Numbe of Connected Component.cpp"
 
-CMakeFiles/..dir/Depth_First_Search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/..dir/Depth_First_Search.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jgoel\CLionProjects\Graph\Depth First Search.cpp" > CMakeFiles\..dir\Depth_First_Search.cpp.i
+CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jgoel\CLionProjects\Graph\Numbe of Connected Component.cpp" > CMakeFiles\..dir\Numbe_of_Connected_Component.cpp.i
 
-CMakeFiles/..dir/Depth_First_Search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/..dir/Depth_First_Search.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jgoel\CLionProjects\Graph\Depth First Search.cpp" -o CMakeFiles\..dir\Depth_First_Search.cpp.s
+CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jgoel\CLionProjects\Graph\Numbe of Connected Component.cpp" -o CMakeFiles\..dir\Numbe_of_Connected_Component.cpp.s
 
 # Object files for target .
 __OBJECTS = \
-"CMakeFiles/..dir/Depth_First_Search.cpp.obj"
+"CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj"
 
 # External object files for target .
 __EXTERNAL_OBJECTS =
 
-..exe: CMakeFiles/..dir/Depth_First_Search.cpp.obj
+..exe: CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj
 ..exe: CMakeFiles/..dir/build.make
 ..exe: CMakeFiles/..dir/linklibs.rsp
 ..exe: CMakeFiles/..dir/objects1.rsp

@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/build
 .PHONY : ./fast
 
-Depth_First_Search.obj: Depth_First_Search.cpp.obj
+Numbe_of_Connected_Component.obj: Numbe_of_Connected_Component.cpp.obj
 
-.PHONY : Depth_First_Search.obj
+.PHONY : Numbe_of_Connected_Component.obj
 
 # target to build an object file
-Depth_First_Search.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Depth_First_Search.cpp.obj
-.PHONY : Depth_First_Search.cpp.obj
+Numbe_of_Connected_Component.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj
+.PHONY : Numbe_of_Connected_Component.cpp.obj
 
-Depth_First_Search.i: Depth_First_Search.cpp.i
+Numbe_of_Connected_Component.i: Numbe_of_Connected_Component.cpp.i
 
-.PHONY : Depth_First_Search.i
+.PHONY : Numbe_of_Connected_Component.i
 
 # target to preprocess a source file
-Depth_First_Search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Depth_First_Search.cpp.i
-.PHONY : Depth_First_Search.cpp.i
+Numbe_of_Connected_Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.i
+.PHONY : Numbe_of_Connected_Component.cpp.i
 
-Depth_First_Search.s: Depth_First_Search.cpp.s
+Numbe_of_Connected_Component.s: Numbe_of_Connected_Component.cpp.s
 
-.PHONY : Depth_First_Search.s
+.PHONY : Numbe_of_Connected_Component.s
 
 # target to generate assembly for a file
-Depth_First_Search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Depth_First_Search.cpp.s
-.PHONY : Depth_First_Search.cpp.s
+Numbe_of_Connected_Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.s
+.PHONY : Numbe_of_Connected_Component.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... .
-	@echo ... Depth_First_Search.obj
-	@echo ... Depth_First_Search.i
-	@echo ... Depth_First_Search.s
+	@echo ... Numbe_of_Connected_Component.obj
+	@echo ... Numbe_of_Connected_Component.i
+	@echo ... Numbe_of_Connected_Component.s
 .PHONY : help
 
 

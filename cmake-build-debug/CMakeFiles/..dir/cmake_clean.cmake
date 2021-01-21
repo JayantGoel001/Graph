@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "..exe"
   "..exe.manifest"
   "..pdb"
-  "CMakeFiles/..dir/Depth_First_Search.cpp.obj"
+  "CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj"
   "lib..dll.a"
 )
 

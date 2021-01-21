@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/build
 .PHONY : ./fast
 
-Numbe_of_Connected_Component.obj: Numbe_of_Connected_Component.cpp.obj
+MST_using_DFS.obj: MST_using_DFS.cpp.obj
 
-.PHONY : Numbe_of_Connected_Component.obj
+.PHONY : MST_using_DFS.obj
 
 # target to build an object file
-Numbe_of_Connected_Component.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj
-.PHONY : Numbe_of_Connected_Component.cpp.obj
+MST_using_DFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.obj
+.PHONY : MST_using_DFS.cpp.obj
 
-Numbe_of_Connected_Component.i: Numbe_of_Connected_Component.cpp.i
+MST_using_DFS.i: MST_using_DFS.cpp.i
 
-.PHONY : Numbe_of_Connected_Component.i
+.PHONY : MST_using_DFS.i
 
 # target to preprocess a source file
-Numbe_of_Connected_Component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.i
-.PHONY : Numbe_of_Connected_Component.cpp.i
+MST_using_DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.i
+.PHONY : MST_using_DFS.cpp.i
 
-Numbe_of_Connected_Component.s: Numbe_of_Connected_Component.cpp.s
+MST_using_DFS.s: MST_using_DFS.cpp.s
 
-.PHONY : Numbe_of_Connected_Component.s
+.PHONY : MST_using_DFS.s
 
 # target to generate assembly for a file
-Numbe_of_Connected_Component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.s
-.PHONY : Numbe_of_Connected_Component.cpp.s
+MST_using_DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/MST_using_DFS.cpp.s
+.PHONY : MST_using_DFS.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... .
-	@echo ... Numbe_of_Connected_Component.obj
-	@echo ... Numbe_of_Connected_Component.i
-	@echo ... Numbe_of_Connected_Component.s
+	@echo ... MST_using_DFS.obj
+	@echo ... MST_using_DFS.i
+	@echo ... MST_using_DFS.s
 .PHONY : help
 
 

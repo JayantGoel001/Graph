@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jgoel/CLionProjects/Graph/Numbe of Connected Component.cpp">
+		<Unit filename="C:/Users/jgoel/CLionProjects/Graph/MST using DFS.cpp">
 			<Option target="."/>
 		</Unit>
 		<Unit filename="C:/Users/jgoel/CLionProjects/Graph/CMakeLists.txt">

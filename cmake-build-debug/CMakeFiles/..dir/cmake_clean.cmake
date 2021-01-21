@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "..exe"
   "..exe.manifest"
   "..pdb"
-  "CMakeFiles/..dir/Numbe_of_Connected_Component.cpp.obj"
+  "CMakeFiles/..dir/MST_using_DFS.cpp.obj"
   "lib..dll.a"
 )
 

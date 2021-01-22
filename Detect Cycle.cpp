@@ -22,13 +22,15 @@ public:
         }
         adj[u].push_back(v);
     }
-    bool DFSUtil(int v,bool *isVisited){
+    bool DFSUtil(int v,bool *isVisited,int parent){
 
         isVisited[v] = true;
         for(int & i : adj[v]) {
             if (!isVisited[i]){
-                DFSUtil(i,isVisited);
-            } else{
+                if (DFSUtil(i,isVisited,v)){
+                    return true;
+                }
+            } else if (i!=parent){
                 return true;
             }
         }
@@ -39,7 +41,7 @@ public:
         memset(isVisited,false,V);
         for (int i = 0; i < V; ++i) {
             if (!isVisited[i]){
-                if (DFSUtil(i,isVisited)){
+                if (DFSUtil(i,isVisited,-1)){
                     return true;
                 }
             }
@@ -64,7 +66,7 @@ int main(){
     Graph g(V);
     for (int i = 0; i < E; ++i) {
         int u,v;
-        cout<<"Enter Egde  Number : "<<i+1<<"\n";
+        cout<<"Enter Edge  Number : "<<i+1<<"\n";
         cin>>u>>v;
         g.addEdge(u,v,0);
     }

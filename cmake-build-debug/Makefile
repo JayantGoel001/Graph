@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/build
 .PHONY : ./fast
 
-Detect_Cycle.obj: Detect_Cycle.cpp.obj
+Breadth_First_Search.obj: Breadth_First_Search.cpp.obj
 
-.PHONY : Detect_Cycle.obj
+.PHONY : Breadth_First_Search.obj
 
 # target to build an object file
-Detect_Cycle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.obj
-.PHONY : Detect_Cycle.cpp.obj
+Breadth_First_Search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Breadth_First_Search.cpp.obj
+.PHONY : Breadth_First_Search.cpp.obj
 
-Detect_Cycle.i: Detect_Cycle.cpp.i
+Breadth_First_Search.i: Breadth_First_Search.cpp.i
 
-.PHONY : Detect_Cycle.i
+.PHONY : Breadth_First_Search.i
 
 # target to preprocess a source file
-Detect_Cycle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.i
-.PHONY : Detect_Cycle.cpp.i
+Breadth_First_Search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Breadth_First_Search.cpp.i
+.PHONY : Breadth_First_Search.cpp.i
 
-Detect_Cycle.s: Detect_Cycle.cpp.s
+Breadth_First_Search.s: Breadth_First_Search.cpp.s
 
-.PHONY : Detect_Cycle.s
+.PHONY : Breadth_First_Search.s
 
 # target to generate assembly for a file
-Detect_Cycle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Detect_Cycle.cpp.s
-.PHONY : Detect_Cycle.cpp.s
+Breadth_First_Search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\..dir\build.make CMakeFiles/..dir/Breadth_First_Search.cpp.s
+.PHONY : Breadth_First_Search.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... .
-	@echo ... Detect_Cycle.obj
-	@echo ... Detect_Cycle.i
-	@echo ... Detect_Cycle.s
+	@echo ... Breadth_First_Search.obj
+	@echo ... Breadth_First_Search.i
+	@echo ... Breadth_First_Search.s
 .PHONY : help
 
 

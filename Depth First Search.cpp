@@ -50,12 +50,9 @@ int main(){
     Graph g(V);
     for (int i = 0; i < E; ++i) {
         int u,v;
-        cout<<"Enter Egde  Number : "<<i+1<<"\n";
+        cout<<"Enter Edge  Number : "<<i+1<<"\n";
         cin>>u>>v;
         g.addEdge(u,v);
     }
-    cout<<"Enter Starting Node : "<<"\n";
-    int startNode = 0;
-    cin>>startNode;
     g.DFS();
 }
